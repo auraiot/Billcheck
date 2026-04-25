@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="si/eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud BB  බිල්පත් පරීක්ෂාව</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cloud BB sri lanka  බිල්පත් පරීක්ෂාව</h1>
+        
+        <label for="phoneNumber">දුරකථන අංකය ඇතුළත් කරන්න:</label>
+        <input type="text" id="phoneNumber" placeholder="උදා: 0792490759" maxlength="10">
+        
+        <button onclick="checkBill()">බිල්පත පෙන්වන්න</button>
+
+        <div id="billDetails">
+            <div class="header-info">
+                <h2>Cloud BB Sri Lanka</h2>
+                <p>Hotline: 0113304820 | Email: service.cloudBB@outlook.com</p>
+                <hr>
+            </div>
+
+            <div class="bill-title">බිල්පත (Invoice)</div>
+
+            <div class="bill-row">
+                <span>දුරකථන අංකය:</span>
+                <span id="outputPhone"></span>
+            </div>
+            
+            <div class="bill-row">
+                <span>බිල්පත් අංකය:</span>
+                <span id="outputBillNumber"></span>
+            </div>
+
+            <div class="bill-row">
+                <span>බිල්පත් දිනය:</span>
+                <span id="outputDate"></span>
+            </div>
+
+            <div class="bill-row">
+                <span>සේවාව:</span>
+                <span>මාසික ගාස්තුව</span>
+            </div>
+            
+            <div class="bill-row total">
+                <span>
+                  ගෙවිය යුතු මුළු වටිනාකම:</span>
+                <span id="outputTotal">රු 3490.00</span>
+            </div>
+
+            <div class="footer-info">
+                <p>සේවා බිදනොවැටීමට  නියමිත දිනට පෙර ගෙවීම සිදු කරන්න .</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
