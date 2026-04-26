@@ -6,7 +6,8 @@ function checkBill() {
         '0792490759',
         '0799024759',
         '0794642749',
-        '0793304820'
+        '0793304820',
+        '0779662101'
     ];
 
     const billDetailsDiv = document.getElementById('billDetails');
